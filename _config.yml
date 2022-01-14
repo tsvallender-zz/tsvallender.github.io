@@ -30,7 +30,7 @@ twitter_username: tsvallender
 github_username:  tsvallender
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
