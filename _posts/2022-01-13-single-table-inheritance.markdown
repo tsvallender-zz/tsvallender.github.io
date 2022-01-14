@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Single table inheritance in Rails"
 date:   2022-01-13 17:12:31 +0000
 categories: rails oo db
