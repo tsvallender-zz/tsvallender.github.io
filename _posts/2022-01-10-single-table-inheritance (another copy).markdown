@@ -1,7 +1,8 @@
 ---
-title:  "Single table inheritance in Rails"
-date:   2022-01-13 17:12:31 +0000
-categories: rails oo db
+title:  "Test 1"
+date:   2022-01-10 17:12:31 +0000
+tags: rails oo db
+author: Trevor Vallender
 ---
 
 Yesterday I implemented Single Table Inheritance in a Rails app I'm working on. Here, I want to document the process.

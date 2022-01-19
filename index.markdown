@@ -1,12 +1,15 @@
 ---
 title: Home
 ---
-Hello and welcome!
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<section id="posts">
+  <h2>Posts</h2>
+  <ul id="post-list">
+    {% for post in site.posts %}
+      <li class="post">
+        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        <div class="post-excerpt">{{ post.excerpt }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
