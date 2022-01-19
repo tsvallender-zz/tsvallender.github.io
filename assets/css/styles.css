@@ -8,6 +8,7 @@ body {
   grid-template-rows: calc(5rem + 7vw) auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(171, 143, 27, 0.2);
+  margin: 0 0 4em 0;
 }
 
 header {
@@ -36,7 +37,7 @@ header h1 a:link, header h1 a:visited {
   max-width: 15em;
   background-color: rgba(172, 16, 10, 0.9);
   color: white;
-  margin: 0 1em 0 2em;
+  margin: 0 5% 0 10%;
 }
 
 #about #content {
@@ -53,7 +54,7 @@ ul.links li {
   padding: .2em 0;
 }
 
-ul.links li a:link, ul.links li a:visited {
+#about a:link, #about a:visited {
   color: white;
 }
 
@@ -152,4 +153,54 @@ figure.highlight {
   border-radius: .3em;
   border: 1px solid #000031;
   border-left: 8px solid #000031;
+}
+
+@media (max-width: 700px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+    min-width: min-content;
+  }
+
+  header {
+    min-width: 100%;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: .5em;
+  }
+
+  #about {
+    min-width: 100%;
+    margin: 0;
+  }
+
+  #about #content {
+    min-height: min-content;
+    gap: .5em;
+  }
+
+  #avatar {
+    display: none;
+  }
+
+  ul.links li {
+    display: inline;
+  }
+
+  #contents {
+    padding: 0;
+  }
+
+  ul#post-list {
+    gap: 0;
+  }
+  li.post {
+    min-width: min-content;
+  }
 }
