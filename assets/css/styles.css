@@ -145,3 +145,11 @@ p {
 article .date {
   font-style: italic;
 }
+
+figure.highlight {
+  font-family: monospace;
+  padding: .5em;
+  border-radius: .3em;
+  border: 1px solid #000031;
+  border-left: 8px solid #000031;
+}
