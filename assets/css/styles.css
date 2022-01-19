@@ -64,10 +64,18 @@ ul.links li a:link, ul.links li a:visited {
   margin: 1em 0;
 }
 
-#posts, article {
+#contents, article {
   grid-row: 2;
   grid-column: 2;
   padding: 0 3em;
+}
+
+#contents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-around;
+  text-align: center;
 }
 
 article {
@@ -79,7 +87,7 @@ article {
 ul#post-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction:row;
+  flex-direction:column;
   gap: 1em;
   justify-content: space-around;
   align-items: center;
@@ -91,6 +99,7 @@ li.post {
   padding: .5em 1.5em;
   min-width: min-content;
   max-width: 22em;
+  text-align: left;
 }
 
 li.post .date {

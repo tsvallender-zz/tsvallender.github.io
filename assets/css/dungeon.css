@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Goudy';
+  src: url("/assets/fonts/goudy.woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("/assets/fonts/Raleway-Regular.woff2"); }
+
+html {
+  background-attachment: fixed; }
+
+body {
+  background-color: #fff;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 1em;
+  min-height: 100vh;
+  font-family: Raleway; }
+
+#layout {
+  height: 100%; }
+
+h1 {
+  text-align: center;
+  font-size: 3em;}
+
+h1, h2, h3, #subtitle {
+  font-family: Goudy; 
+  font-weight: bold;
+  padding: 1.5em 0 .5em 0;
+}
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
+ul li {
+  margin: .3em 0 .3em 1em;
+  list-style-type: circle;
+}
+
+em {
+  font-style: italic;
+}
+
+#subtitle {
+  font-style: italic;
+  text-align: center; }
+
+em {
+  font-family: Goudy; }
+
+table {
+  width: 100%; }
+
+tr {
+  border-bottom: 1px solid #000; }
+
+tr:nth-child(odd) {
+  background-color: #fff; }
+
+th, tr:nth-child(even) {
+  background-color: lightgray; }
+
+img.map {
+  border: 1px solid #000;
+  max-width: calc(100% + 4em);
+  top: 1em;
+  max-height: 50vh; }
+
+#sticky {
+  text-align: center;
+  position: sticky;
+  top: 0em; }
+
+@media (max-width: 1000px) {
+  img.map {
+    position: relative;
+    left: -2em; } }
+
+@media (max-width: 500px) {
+  .right, .left {
+    display: block;
+    margin: .5em auto; } }
+
+@media (min-width: 501px) {
+  .right, .left {
+    margin: 1em; }
+  .right {
+    float: right; }
+  .left {
+    float: left; } }
+
+.unstick {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  text-decoration: none; }
+
+  html {
+    background-image: url("/dungeons/fungi/background.png");
+}
+
+#stairway {
+    color: #460000;
+}
+#offerings {
+    color: #909401;
+}
+#side-room {
+    color: #003F08;
+}
+#the-root-room {
+    color: #3F2C01;
+}
+#tomb {
+    color: #930015;
+}
+#camp {
+    color: #006495;
+}
+#lake {
+    color: #56C0A9;
+}
+#the-mushroom-garden {
+    color: #77008E;
+}
+#fairy-circle {
+    color: #008e22;
+}

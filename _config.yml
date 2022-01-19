@@ -30,9 +30,23 @@ instagram_username:  tsvallender
 itch_username:  tsvallender
 pocket_username:  tsvallender
 
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      stylesheet: "/assets/css/styles.css"
 # Build settings
 plugins:
   - jekyll-feed
+
+collections:
+  dungeons:
+    output: true
+  articles:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

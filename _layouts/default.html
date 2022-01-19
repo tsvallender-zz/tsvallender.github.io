@@ -1,76 +1,52 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: outer
+---
+<header>
+  <h1><a href="/">{{ site.title }}</a></h1>
+</header>
 
-  <title>{{ page.title }} | {{ site.title }}</title>
+<section id="about">
+  <div id="content">
+    <p>{{ site.description }}</p>
 
-  <link rel="stylesheet" href="/assets/css/reset.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/print.css" media="print">
-
-  <meta name="description" content="{{ site.description }}">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:locale" content="en_GB">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:url" content="{{ site.url }}">
-  <link rel="canonical" href="{{ site.url }}">
-
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/my.webmanifest">
-  <meta name="theme-color" content="#FF00FF">
-</head>
-
-<body>
-  <header>
-    <h1><a href="/">{{ site.title }}</a></h1>
-  </header>
-
-  <section id="about">
-    <div id="content">
-      <p>{{ site.description }}</p>
-  
-      <div class="social">
-        <h4>Find me on:</h4>
-        <ul class="links">
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-              Twitter</a>
-          </li>
-          <li>
-            <a href="https://github.com/{{ site.github_username }}" target="_blank">
-              GitHub</a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-              LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-              Instagram</a>
-          </li>
-          <li>
-            <a href="https://{{ site.itch_username }}.itch.io/" target="_blank">
-              Itch</a>
-          </li>
-          <li>
-            <a href="https://getpocket.com/@{{ site.pocket_username }}" target="_blank">
-              Pocket</a>
-          </li>
-        </ul>
-      </div>
-  
-      <img src="/assets/images/avatar.jpg" alt="Profile photo of Trevor Vallender"
-        id="avatar">
+    <div class="social">
+      <h4>Find me on:</h4>
+      <ul class="links">
+        <li>
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+            Twitter</a>
+        </li>
+        <li>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank">
+            GitHub</a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+            LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+            Instagram</a>
+        </li>
+        <li>
+          <a href="https://{{ site.itch_username }}.itch.io/" target="_blank">
+            Itch</a>
+        </li>
+        <li>
+          <a href="https://getpocket.com/@{{ site.pocket_username }}" target="_blank">
+            Pocket</a>
+        </li>
+      </ul>
     </div>
-  </section>
-  
-  {{ content }}
+
+    <p><a href="/feed.xml">Subscribe via RSS</a></p>
+
+    <img src="/assets/images/avatar.jpg" alt="Profile photo of Trevor Vallender"
+      id="avatar">
+  </div>
+</section>
+
+{{ content }}
 
 </body>
 </html>
