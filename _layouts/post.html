@@ -3,7 +3,7 @@ layout: default
 ---
 <article>
   <h2>{{ page.title }}</h2>
-  <p class="date">{{ page.date }} - Written by {{ page.author }}</p>
+  <p class="date">{{ page.date | date_to_long_string }}</p>
 
   {{ content }}
 </article>
