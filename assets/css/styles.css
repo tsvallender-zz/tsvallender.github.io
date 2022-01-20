@@ -81,6 +81,7 @@ article {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.2em;
   margin: 0 0 0 10%;
+  max-width: 60vw;
 }
 
 ul#post-list {
@@ -151,11 +152,14 @@ figure.highlight {
   border-radius: .3em;
   border: 1px solid #000031;
   border-left: 8px solid #000031;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 pre {
   max-width: 100%;
-  overflow-y: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 @media (max-width: 700px) {
@@ -210,6 +214,7 @@ pre {
 
   article {
     margin: 0;
+    max-width: 90vw;
   }
   figure.highlight {
     border-radius: 0;
