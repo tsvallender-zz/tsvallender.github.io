@@ -208,6 +208,7 @@ figure.highlight {
   }
 
   figure.highlight {
+    display: block;
     max-width: 100%;
     overflow: scroll;
   }
