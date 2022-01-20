@@ -202,4 +202,13 @@ figure.highlight {
   li.post {
     min-width: min-content;
   }
+
+  article {
+    margin: 0;
+  }
+
+  figure.highlight {
+    max-width: 100%;
+    overflow: scroll;
+  }
 }
