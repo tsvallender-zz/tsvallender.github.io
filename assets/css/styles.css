@@ -155,6 +155,7 @@ figure.highlight {
 
 pre {
   max-width: 100vw;
+  overflow: auto;
 }
 
 @media (max-width: 700px) {
