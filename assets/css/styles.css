@@ -94,7 +94,7 @@ ul.links li {
   margin: 1em 0;
 }
 
-#contents, article {
+#contents, article, main {
   grid-row: 2;
   grid-column: 2;
 }
@@ -107,7 +107,7 @@ ul.links li {
   text-align: center;
 }
 
-article {
+article, main {
   font-size: 1.2em;
   margin: 0 0 5em 10%;
   max-width: 60vw;
@@ -270,7 +270,7 @@ pre {
     min-width: min-content;
   }
 
-  article {
+  article, main {
     margin: 0 0 4em 0;
     max-width: 90vw;
   }
