@@ -109,7 +109,7 @@ ul.links li {
 
 article {
   font-size: 1.2em;
-  margin: 0 0 0 10%;
+  margin: 0 0 5em 10%;
   max-width: 60vw;
 }
 
@@ -172,6 +172,10 @@ p {
   margin: 1em 0;
   line-height: 1.2em;
   font-weight: 50;
+}
+
+em {
+  font-style: italic;
 }
 
 dt {
@@ -267,7 +271,7 @@ pre {
   }
 
   article {
-    margin: 0;
+    margin: 0 0 4em 0;
     max-width: 90vw;
   }
   figure.highlight {
