@@ -83,7 +83,8 @@ name.reverse # "rednellaV S T"
 poem = "And the Raven, never flitting, still is sitting, still is sitting"
 poem.sub "sitting", "standing"
 # "And the Raven, never flitting, still is standing, still is sitting
-poem.gsub "sitting", "standing" # "And the Raven, never flitting, still is standing, still is standing
+poem.gsub "sitting", "standing"
+# "And the Raven, never flitting, still is standing, still is standing
 # Note these do not change the original value - you need sub! and gsub! for that.
 
 quote = "  Quoth the Raven “Nevermore.   "
@@ -130,7 +131,8 @@ Hashes are another <code>Enumerable</code> type. They are a key: value
 collection.
 
 {% highlight ruby %}
-fellowship = { boromir: "Human", gimli: "Dwarf", legolas: "Elf", aragorn: "Human", frodo: "Hobbit" }
+fellowship = { boromir: "Human", gimli: "Dwarf", legolas: "Elf",
+               aragorn: "Human", frodo: "Hobbit" }
 fellowship[:gimli] # "Dwarf"
 fellowship.delete :boromir
 fellowship.each_key { |x| puts x }
