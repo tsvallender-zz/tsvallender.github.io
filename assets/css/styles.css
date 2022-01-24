@@ -248,6 +248,7 @@ pre {
 
   ul.links {
     text-align: center;
+    margin: 0 0 1em 0;
   }
   ul.links .linkText, .social h4 {
     display: none;
