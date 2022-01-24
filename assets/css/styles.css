@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Inconsolata';
-  src: url("assets/fonts/Inconsolata-VF.ttf");
+  src: url("/assets/fonts/Inconsolata-VF.ttf");
   font-weight: 50 950;
   font-stretch: 75% 125%;
   font-style: normal;
