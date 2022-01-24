@@ -32,7 +32,7 @@ body {
   display: grid;
   grid-template-columns: .8fr 4fr;
   grid-template-rows: calc(5rem + 7vw) auto;
-  background-color: rgba(171, 143, 27, 0.2);
+  background-color: rgba(171, 143, 27, 0.1);
   font-family: 'Baloo2';
 }
 
@@ -74,12 +74,17 @@ header h1 a:link, header h1 a:visited {
   margin: 0 1em;
 }
 
+#about .social {
+  width: 100%;
+}
+
 ul.links li {
   padding: .2em 0;
 }
 
 #about a:link, #about a:visited {
   color: white;
+  text-decoration: none;
 }
 
 #avatar {
@@ -169,6 +174,14 @@ p {
   font-weight: 50;
 }
 
+dt {
+  font-weight: 750;
+  margin: .8em 0 .2em 0;
+}
+dd {
+  margin-left: 3em;
+}
+
 article .date {
   font-style: italic;
 }
@@ -189,6 +202,10 @@ pre {
   overflow-x: auto;
   font-family: Inconsolate, monospace;
   font-size: .8em;
+}
+
+.fa {
+  font-size: 1.5em;
 }
 
 @media (max-width: 700px) {
@@ -225,8 +242,16 @@ pre {
     display: none;
   }
 
+  ul.links {
+    text-align: center;
+  }
+  ul.links .linkText, .social h4 {
+    display: none;
+  }
+
   ul.links li {
     display: inline;
+    padding: .5em;
   }
 
   #contents {

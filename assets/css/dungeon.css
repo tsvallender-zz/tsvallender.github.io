@@ -4,9 +4,16 @@
   font-weight: normal;
   font-style: normal; }
 
+
 @font-face {
   font-family: 'Raleway';
-  src: url("/assets/fonts/Raleway-Regular.woff2"); }
+  src: url("/assets/fonts/Raleway-VF.woff2") format('woff2-variations');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-feature-settings: "onum";
+  font-feature-settings: "kern";
+}
 
 html {
   background-attachment: fixed; }
