@@ -1,5 +1,5 @@
 ---
-title:  "Test 1"
+title:  "Waffle 1/3"
 date:   2022-01-10 17:12:31 +0000
 tags: rails oo db
 author: Trevor Vallender

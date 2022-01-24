@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'Baloo2';
+  src: url("/assets/fonts/Baloo2-VF.ttf");
+  font-weight: 50 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("/assets/fonts/Inconsolata-VF.ttf");
+  font-weight: 50 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("/assets/fonts/Raleway-VF.woff2") format('woff2-variations');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-feature-settings: "onum";
+  font-feature-settings: "kern";
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,8 +32,8 @@ body {
   display: grid;
   grid-template-columns: .8fr 4fr;
   grid-template-rows: calc(5rem + 7vw) auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(171, 143, 27, 0.2);
+  font-family: 'Baloo2';
 }
 
 header {
@@ -26,7 +52,7 @@ header h1 {
 header h1 a:link, header h1 a:visited {
   color: white;
   text-decoration: none;
-  font-family: monospace;
+  font-family: Inconsolata, monospace;
   font-weight: normal;
 }
 
@@ -78,7 +104,6 @@ ul.links li {
 }
 
 article {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.2em;
   margin: 0 0 0 10%;
   max-width: 60vw;
@@ -122,7 +147,8 @@ a:hover, li.post a:hover.read-more {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+  font-family: Raleway, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 750;
   margin: .5em 0;
 }
 
@@ -140,6 +166,8 @@ h4 {
 
 p {
   margin: 1em 0;
+  line-height: 1.2em;
+  font-weight: 50;
 }
 
 article .date {
@@ -160,6 +188,8 @@ pre {
   max-width: 100%;
   overflow-y: hidden;
   overflow-x: auto;
+  font-family: Inconsolate, monospace;
+  font-size: .8em;
 }
 
 @media (max-width: 700px) {
