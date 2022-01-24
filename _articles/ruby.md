@@ -7,8 +7,6 @@ author: T S Vallender
 date: 2022-01-19
 ---
 
-## Introduction
-
 This is my overview of Ruby, aiming to give a bird’s eye view of the
 language. My goal is to present information in such a way that it will
 prove as a useful introduction to Ruby for programmers coming from
@@ -83,7 +81,8 @@ name.downcase # "t s vallender"
 name.reverse # "rednellaV S T"
 
 poem = "And the Raven, never flitting, still is sitting, still is sitting"
-poem.sub "sitting", "standing" # "And the Raven, never flitting, still is standing, still is sitting
+poem.sub "sitting", "standing"
+# "And the Raven, never flitting, still is standing, still is sitting
 poem.gsub "sitting", "standing" # "And the Raven, never flitting, still is standing, still is standing
 # Note these do not change the original value - you need sub! and gsub! for that.
 
