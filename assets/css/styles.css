@@ -40,7 +40,6 @@ header {
   grid-row: 1;
   grid-column: 1 / 3;
   text-align: right;
-  z-index: -1;
 }
 
 header h1 {
