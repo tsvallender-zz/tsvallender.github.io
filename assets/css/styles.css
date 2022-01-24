@@ -82,6 +82,10 @@ ul.links li {
   padding: .2em 0;
 }
 
+ul.links .linkText {
+  margin-left: .8em;
+}
+
 #about a:link, #about a:visited {
   color: white;
   text-decoration: none;
