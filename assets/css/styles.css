@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Baloo2';
-  src: url("/assets/fonts/Baloo2-VF.ttf");
+  src: url("../tsvallender.github.io/assets/fonts/Baloo2-VF.ttf");
   font-weight: 50 950;
   font-stretch: 75% 125%;
   font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Inconsolata';
-  src: url("/assets/fonts/Inconsolata-VF.ttf");
+  src: url("../tsvallender.github.io/assets/fonts/Inconsolata-VF.ttf");
   font-weight: 50 950;
   font-stretch: 75% 125%;
   font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Raleway';
-  src: url("/assets/fonts/Raleway-VF.woff2") format('woff2-variations');
+  src: url("../tsvallender.github.io/assets/fonts/Raleway-VF.woff2") format('woff2-variations');
   font-weight: 125 950;
   font-stretch: 75% 125%;
   font-style: normal;
