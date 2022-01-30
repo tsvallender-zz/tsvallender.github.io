@@ -23,10 +23,9 @@ email: trevor@tsvallender.co.uk
 description: My name is Trevor, I’m a software engineer specialising in Ruby on Rails. I’m also a dad, geek and tabletop gamer.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://tsvallender.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tsvallender
+gitlab_username: tsvallender
 github_username:  tsvallender
 linkedin_username:  tsvallender
-instagram_username:  tsvallender
 itch_username:  tsvallender
 pocket_username:  tsvallender
 
